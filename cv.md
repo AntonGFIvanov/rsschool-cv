@@ -69,4 +69,9 @@ public partial class FormViewSM : Form
         #endregion
  ```
  
- 
+## Education
+
+### **Belarusian-Russian University, BA Automated Data Processing Systems** **2012 -- 2018**
+
+  - **A1QA** Test Engineer (functional testing) **06.2013 -- 08.2013**
+  - **SoftLine** Junior Oracle SQL Developer **06.2017**
