@@ -75,3 +75,10 @@ public partial class FormViewSM : Form
 
   - **A1QA** Test Engineer (functional testing) **06.2013 -- 08.2013**
   - **SoftLine** Junior Oracle SQL Developer **06.2017**
+
+## Skills
+
+ - Web development: HTML, CSS, JavaScript
+ - Language: C#, SQL
+ - Technologies: .Net, Entity Framework
+ - English: A1(Elementary)
