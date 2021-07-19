@@ -37,3 +37,36 @@ Plant "Mogilevtransmash" OJSC "MAZ", Mogilev
 - Ensuring uninterrupted operation of machines and automatic lines
 - Development and modernization of programs for CNC machines
 - Maintenance and testing of machine tools and automatic lines 
+
+## Projects
+
+``` C#
+public partial class FormViewSM : Form
+    {
+        public static string conString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=c:\TehnoSearch\Base\;Extended Properties=dBASE IV;User ID=Admin;Password=";
+
+        public FormViewSM()
+        {
+            InitializeComponent();
+        }
+
+        // Metods
+
+        #region Метод поиска изделий
+
+        private void SearchIZD()
+        {
+            comboBoxKodIZD.DataSource = null;
+
+            string stringSQL = $"SELECT IZD FROM NRASV000 GROUP BY IZD";
+
+            comboBoxKodIZD.DataSource = DTselect(stringSQL, conString);
+
+            comboBoxKodIZD.DisplayMember = "IZD";
+            comboBoxKodIZD.ValueMember = "IZD";
+            comboBoxKodIZD.SelectedIndex = -1;
+        }
+        #endregion
+ ```
+ 
+ 
