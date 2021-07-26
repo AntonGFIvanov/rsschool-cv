@@ -93,11 +93,53 @@
     </section>
     <div class="line"></div>
     <section>
-      <h2>Technicals Skills</h2>
+      <h2>Education</h2>
       <ul>
-        <li>Belarusian-Russian University, BA Automated Data Processing Systems /2012 -- 2018**</li>
+        <li>Belarusian-Russian University, BA Automated Data Processing Systems /2012 -- 2018</li>
         <li>A1QA, Test Engineer (functional testing) /06.2013 -- 08.2013</li>
         <li>SoftLine, Junior Oracle SQL Developer /06.2017</li>
+      </ul>
+    </section>
+    <div class="line"></div>
+    <section>
+      <h2>Sample code</h2>
+      <p><pre>
+        public partial class FormViewSM : Form
+        {
+            public static string conString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=c:\TehnoSearch\Base\;Extended Properties=dBASE IV;User ID=Admin;Password=";
+    
+            public FormViewSM()
+            {
+                InitializeComponent();
+            }
+    
+            // Metods
+    
+            #region Метод поиска изделий
+    
+            private void SearchIZD()
+            {
+                comboBoxKodIZD.DataSource = null;
+    
+                string stringSQL = $"SELECT IZD FROM NRASV000 GROUP BY IZD";
+    
+                comboBoxKodIZD.DataSource = DTselect(stringSQL, conString);
+    
+                comboBoxKodIZD.DisplayMember = "IZD";
+                comboBoxKodIZD.ValueMember = "IZD";
+                comboBoxKodIZD.SelectedIndex = -1;
+            }
+            #endregion
+    
+        }</pre></p>
+    </section>
+    <div class="line"></div>
+    <section>
+      <h2>Contacts</h2>
+      <ul>
+        <li>Tel: +375295489762</li>
+        <li><a href="mailto:anton.gf.ivanov@outlook.com">Email:anton.gf.ivanov@outlook.com</a></li>
+        <li>Mogilev, Belarus</li>
       </ul>
     </section>
     <div class="line"></div>
