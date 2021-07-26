@@ -1,0 +1,41 @@
+img {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+  border: 5px solid #a9a9a9;
+}
+body {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+#prof {
+  text-align: center;
+  color: #474747;
+}
+.intent {
+  font-size: 20px;
+}
+.line {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #a9a9a9;
+}
+ul {
+  font-size: 20px;
+}
+#mygit,
+#rs {
+  display: block;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+}
